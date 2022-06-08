@@ -1,0 +1,875 @@
+@charset "UTF-8";
+
+/* ************************************************************************************************
+   1600px以上 / デスクトップPC
+   ************************************************************************************************ */
+@media screen and (min-width: 1600px){
+
+/***** index.html @1024px *****/
+.header-main__img {
+ width: 25%;
+ top: 17%;
+ right: 19%;
+}
+
+}
+
+
+/* ************************************************************************************************
+   1024px
+   ************************************************************************************************ */
+@media screen and (max-width: 1023px){
+
+/***** 共通@1024px *****/
+
+/***** index.html @1024px *****/
+.header-main__img {
+  width: 30%;
+  top: 17%;
+  right: 9%;
+}
+
+}
+
+
+/* ************************************************************************************************
+   960px
+   ************************************************************************************************ */
+@media screen and (max-width: 959px){
+
+/***** 共通 @960px *****/
+h2 {font-size: 3rem;}
+h4 {font-size: 2.3rem;}
+
+.btn1, .btn2,
+.nav-previous, nav-next {
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.index__ttl{
+  margin-bottom: 6rem;
+}
+
+
+/***** ヘッダー @960px *****/
+.header-nav{
+  display: none;
+}
+
+#nav-drawer{
+  display: block;
+}
+
+
+/***** フッター @960px *****/
+.access {
+  background-size: cover;
+  padding: 8rem 0;
+}
+
+.access__container {
+  width: 80%;
+  padding: 4rem;
+}
+
+.access__contents{
+  display: block;
+}
+
+.access__contents iframe{
+  width: 100%;
+}
+
+.access__item {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.access__ttl {
+  margin-bottom: 3rem;
+}
+
+.access__txt {
+  margin-bottom: 2rem;
+}
+
+.access__tel {
+  margin-top: 4rem;
+}
+
+
+/***** 下層ページヘッダー @960px *****/
+.header-sub{
+  background-image: url(images/sp/header_bg_sp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.header-sub__item{
+  padding-top: 4rem;
+}
+
+.header-sub__ttl{
+  margin-bottom: 1rem;
+}
+
+
+/***** index.html @960px *****/
+.header-main, .menu, .news{
+  padding: 8rem 0;
+}
+
+.header-main {
+  height: 45vh;
+}
+
+.header-main__img {
+  width: 36%;
+  top: 20%;
+  right: 6%;
+  z-index: 9;
+}
+
+
+/* index.html / メインコンテンツ @960px */
+.main__img {
+  width: 44%;
+}
+
+.main__item {
+  width: 53%;
+}
+
+
+/* index.html / メニュー @960px */
+.menu{
+  background-image: url(images/sp/index_menu_bg_sp.jpg);
+  background-size: cover;
+}
+
+.menu__contents {
+  width: 100%;
+  margin: 0 auto 2rem;
+}
+
+figure.menu__item {
+  margin-bottom: 5rem;
+}
+
+
+/* index.html / 新着情報 @960px */
+.news__contents {
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.news__item {
+  width: 50%;
+  margin-bottom: 4rem;
+}
+
+.news__thumbnail img{
+  width: 80%;
+}
+
+
+/***** concept.html @960px *****/
+.concept01 {
+  padding: 4rem 0 8rem;
+}
+
+.concept02 {
+  padding: 8rem 0 4rem;
+}
+
+.concept__bg {
+  height: 25vh;
+}
+
+.concept02__container{
+  width: 100%;
+}
+
+.concept02__item {
+  width: 320px;
+  height: 320px;
+  padding: 2rem;
+  margin: 0 2rem 6rem;
+}
+
+.concept02__txt {
+  margin-top: 2rem;
+}
+
+
+/***** menu.html @960px *****/
+.menu03{
+  margin: 0 0 4rem;
+}
+
+.menu02__img{
+  width: 80%;
+}
+
+.menu02__ttl {
+    margin: 4rem 0;
+}
+
+.menu02__ttl-en{
+  margin-bottom: 5px;
+}
+
+.menu02__table {
+    margin: 4rem auto 0;
+}
+
+
+/***** staff.html @960px *****/
+.staff{
+  padding: 0;
+}
+
+.staff .container {
+  justify-content: space-around;
+}
+
+.staff__item {
+  width: 40%;
+  margin-bottom: 6rem;
+}
+
+
+/***** recruit.html @960px *****/
+.recruit01__movie {
+  width: 100%;
+}
+
+.recruit02__box {
+  width: 100%;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.recruit__bg {
+  height: 25vh;
+}
+
+.recruit03__table th{
+  padding: 1.5rem;
+}
+
+.recruit03__table td{
+  padding: 1.5rem;
+}
+
+.recruit03__contact {
+  width: 100%;
+}
+
+
+/***** access.html @960px *****/
+.access02__table{
+  width: 90%;
+  margin: 0 auto 6rem;
+  font-size: 1.4rem;
+}
+
+.access02__table th{
+  padding: 1.5rem;
+}
+
+.access02__table td{
+  padding: 1.5rem;
+}
+
+.access02__footer {
+  padding: 0.5rem 0 8rem;
+}
+
+/***** 新着情報一覧ページ（index.php）@960px *****/
+.news02{
+  margin: 0 0 5rem;
+}
+
+.news02__post {
+  width: 45%;
+  margin: 0 1rem 5rem;
+}
+
+.news02__blog_info {
+  font-size: 1.2rem;
+}
+
+
+/***** 個別投稿ページ（single.php）@960px *****/
+.single02{
+  margin: 0 0 5rem;
+}
+
+.single .header-sub__item {
+  padding-top: 6rem;
+}
+
+.single02__blog_info{
+  font-size: 1.2rem;
+}
+
+
+/***** お問い合わせフォーム　@960pc *****/
+.entry{
+  margin: 0 0 4rem;
+}
+
+.wpcf7 form {
+  width: 80%;
+}
+
+}
+
+
+/* ************************************************************************************************
+   560px / スマホ
+   ************************************************************************************************ */
+@media screen and (max-width: 559px){
+
+/***** 共通 @560px*****/
+h2 {font-size: 2.6rem;}
+h3 {font-size: 2.4rem;}
+h4 {font-size: 2rem;}
+h5 {font-size: 1.6rem;}
+p{font-size: 1.2rem;}
+
+a{font-size: 1.2rem;}
+
+img{
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 5%;
+}
+
+.br_sp{display: block;}
+.br_pc{display: none;}
+
+.sub__line {
+  margin: 1rem auto 2rem;
+}
+
+/* ボタン */
+.btn1, .btn2,
+.nav-previous, .nav-next{
+  font-size: 1.3rem;
+  width: 171px;
+  height: 45px;
+  line-height: 45px;
+}
+
+/* ページトップボタン */
+#page_top, #page_top a{
+  width: 50px;
+  height: 50px;
+}
+
+.index__ttl {
+  margin-bottom: 4rem;
+}
+
+
+/***** ヘッダー @560px*****/
+header,
+header .container{
+  height: 60px;
+}
+
+.header__ttl img {
+  width: 85%;
+}
+
+#nav-content{
+  width: 50% !important;
+}
+
+.header-sp__list {
+  margin-bottom: 3rem !important;
+}
+
+.header-sp__item{
+  font-size: 1.2rem;
+}
+
+
+/***** 下層ページヘッダー @560px*****/
+.header-sub {
+    background-size: cover;
+    height: 40vh;
+}
+
+.header-sub__item{
+  padding-top: 4rem;
+}
+
+
+/***** フッター @560px *****/
+.access{
+  padding: 5rem 0;
+}
+
+.access__container {
+  width: 85%;
+  padding: 4rem 2rem;
+}
+
+.access__contents iframe {
+  width: 100%;
+  height: 45vh;
+}
+
+.access__item {
+  margin-top: 3rem;
+}
+
+.access__ttl {
+  margin-bottom: 2rem;
+}
+
+.access__txt {
+  margin-bottom: 2rem;
+}
+
+.access__tel {
+  margin-top: 3rem;
+}
+
+small {
+  font-size: 1.1rem;
+}
+
+
+/***** index.html @560px *****/
+.header-main, .main, .menu, .news, .access{
+  padding: 5rem 0;
+}
+
+/*index.html / メインイメージ @560px*/
+.header-main{
+  background-image: url(images/sp/index_header_bg01_sp.jpg);
+  height: 56vh;
+  position: relative;
+}
+
+.header-main__img {
+  top: 21%;
+  right: 5%;
+  width: 60%;
+}
+
+/*index.html / メインコンテンツ @560px*/
+.main {
+    padding: 5rem 0 1rem;
+}
+
+.main__contents1, .main__contents2 {
+  display: block;
+  margin-bottom: 5rem;
+}
+
+.main__item{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.main__img {
+  width: 100%;
+}
+
+.main__contents1 {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__contents1 .main__item {order: 1;}
+.main__contents1 .main__img {order: 2;}
+
+
+/*index.html / メニュー @560px*/
+figure.menu__item {
+  margin-bottom: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu__contents {
+  margin: 0 auto 1rem;
+}
+
+
+/* index.html / 新着情報 @560px */
+.news__item {
+  margin-bottom: 3rem;
+}
+
+.news__thumbnail img {
+  width: 90%;
+}
+
+.news__date {
+  font-size: 1.1rem;
+}
+
+
+/***** concept.html @560px *****/
+.concept01{
+  padding: 3rem 0 5rem;
+}
+
+.concept02{
+  padding: 5rem 0 3rem;
+}
+
+.concept01__txt{
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.concept__bg{
+  background-image: url(images/sp/concept_main_bg01_sp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.concept02__item {
+  padding: 4rem 2rem;
+  margin: 0 0 4rem;
+}
+
+.concept02__txt {
+    margin-top: 3rem;
+}
+
+
+/***** menu.html @560px *****/
+.menu02{
+  margin: 0 0 8rem;
+}
+
+.menu03{
+  margin: 0 0 3rem;
+}
+
+.menu02__img{
+  width: 100%;
+}
+
+.menu02__ttl {
+  margin: 2rem 0;
+}
+
+.menu02__table,
+.menu03__table {
+  font-size: 1.4rem;
+}
+
+.menu02__table {
+  width: 90%;
+  margin: 3rem auto 0;
+}
+
+.menu02__txt{
+  text-align: left;
+}
+
+.menu02__table th{
+  width: 70%;
+  padding: 1.5rem .5rem .5rem;
+}
+
+.menu02__table td{
+  width: 30%;
+  padding: 1.5rem .5rem .5rem;
+}
+
+.menu03__item {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 3rem;
+  border: 5px solid #F7EBEC;
+  padding: 3rem;
+}
+
+
+/***** staff.html @560px *****/
+.staff{
+  margin: 0 0 3rem;
+}
+
+.staff .container {
+  display: block;
+}
+
+.staff__item {
+  width: 90%;
+  margin-bottom: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.staff__ttl{
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.staff__item:last-child{
+  margin-bottom: 0;
+}
+
+
+/***** recruit.html @560px *****/
+.recruit01, .recruit02{
+  padding: 0 0 5rem;
+}
+
+.recruit03{
+  padding: 5rem 0;
+}
+
+.recruit01__item{
+  margin-top: 3rem;
+}
+
+.recruit01__txt{
+  text-align: left;
+}
+
+.recruit02__box {
+  width: 100%;
+  margin: 0 auto 4rem;
+  padding: 3rem 2rem;
+  display: block;
+  border: 7px double #F7EBEC;
+}
+
+.recruit02__item {
+  width: 100%;
+}
+
+.recruit02__line {
+  width: 70%;
+}
+
+.recruit02__txt {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recruit02__box--sp{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.recruit02__img--sp {order:2;}
+.recruit02__item--sp {order:1;}
+
+.recruit__bg{
+  background-image: url(images/sp/recruit_main_bg01_sp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.recruit03__ttl {
+  margin: 0 0 3rem;
+}
+
+.recruit03__table {
+  width: 80%;
+  margin: 0 auto 5rem;
+  font-size: 1.2rem;
+}
+
+.recruit03__table th {
+  padding: 1.5rem 0 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.recruit03__table td {
+  display: block;
+  width: 100%;
+}
+
+.recruit03__contact{
+  display: block;
+  padding: 3rem;
+}
+
+.recruit03__contact--tel {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.recruit__tel {
+  line-height: 40px;
+}
+
+
+/***** access.html @560px *****/
+.access02__img{
+  margin: 0 auto 3rem;
+}
+
+.access02__table {
+  width: 90%;
+  margin: 0 auto 5rem;
+  font-size: 1.2rem;
+}
+
+.access02__table th {
+  padding: 1.5rem 0 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.access02__table td {
+  display: block;
+  width: 100%;
+}
+
+.access02 iframe{
+  height: 50vh;
+}
+
+.access02__footer {
+  padding: 0.5rem 0 5rem;
+}
+
+/***** 新着情報一覧ページ（index.php）@560px *****/
+.news02{
+  margin: 0 0 3rem;
+}
+
+.news02__post {
+  width: 90%;
+  margin: 0 auto 4rem;
+}
+
+.news02__blog_info {
+  font-size: 1.1rem;
+}
+
+.category__ttl a {
+  font-size: 2.6rem;
+}
+
+
+/***** 個別投稿ページ（single.php）@560px *****/
+.single02{
+  margin: 0 0 3rem;
+}
+
+.single02__contents{
+  width: 100%;
+  margin: 2rem auto 4rem;
+}
+
+.single__line {
+    margin: 4rem auto 3rem;
+}
+
+.footer__widget{
+  display: block;
+}
+
+.widget-area{
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.footer__widget h5 {
+  font-weight: bold;
+}
+
+.footer__widget li {
+  font-size: 1.2rem;
+}
+
+
+/***** お問い合わせフォーム @560px *****/
+.entry{
+  margin: 0 0 3rem;
+}
+
+.wpcf7 form {
+  width: 95%;
+}
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validates-as-number.smallform {
+  width: 18%;
+}
+
+.wpcf7 .wpcf7-submit{
+  margin: 5rem auto 0;
+}
+
+
+}
+
+
+/* ************************************************************************************************
+   320px / スマホ
+   ************************************************************************************************ */
+@media screen and (max-width: 319px){
+
+/***** 共通 @320px*****/
+h2 {font-size: 2.4rem;}
+h3 {font-size: 2.1rem;}
+h4 {font-size: 1.8rem;}
+h5 {font-size: 1.5rem;}
+p{font-size: 1.2rem;}
+
+
+/**** フッター @320px *****/
+.access__contents iframe {
+  height: 40vh;
+}
+
+.access__tel {
+  font-size: 2.2rem;
+}
+
+
+/***** menu.html @320px *****/
+.menu03__item {
+  width: 280px;
+  height: 280px;
+  padding: 2rem;
+}
+
+
+/***** recruit.html @320px *****/
+.recruit03__table {
+  width: 90%;
+}
+
+
+}
