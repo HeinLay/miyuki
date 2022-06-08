@@ -132,13 +132,12 @@ header .container {
   margin: .5rem 0;
 }
 
-.header-nav__item:first-child,
+.header-nav__item,
 .header-nav__item--single:first-child {
   font-family: 'Franklin';
   font-size: 1.5rem;
 }
 
-.header-nav__item:last-child,
 .header-nav__item--single:nth-child(2) {
   font-size: 1.1rem;
 }
@@ -180,6 +179,39 @@ header .container {
   font-family: 'lbrite';
   letter-spacing: .1em;
 }
+
+/***** dropdown-nav ー *****/
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 3px;
+  padding: 12px 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  min-width: 160px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.sub-menu.is-show {
+  display: block;
+}
+
+.sub-menu li a {
+  display: block;
+  padding: 10px;
+}
+
+.dropdown-nav .sub-menu li {
+  padding: 10px 0;
+}
+
+.sub-menu li a:first-child {
+  display: none;
+}
+
 
 /***** フッター *****/
 footer{
@@ -956,6 +988,31 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validate
   margin: .5rem auto 1rem;
 }
 
+@media only screen and (min-width:768px) and (max-width:1280px) {
+    
+  .sub-menu {
+    margin-top: 0.242vw;
+    padding: 0.968vw 1.29vw;
+    box-shadow: 0vw 0.645vw 1.29vw 0vw rgba(0, 0, 0, 0.2);
+    min-width: 12.903vw;
+  }
+
+  .sub-menu li a {
+    padding: 0.806vw 0;
+  }
+
+  .dropdown-nav .sub-menu li {
+    padding: 0.806vw 0;
+  }
+
+  .dropdown-nav>a {
+    pointer-events: none;
+  }
+
+  .sub-menu li a:first-child {
+    display: block;
+  }
+}
 
 /* プライバシーポリシーの埋め込み */
 @media only screen and (max-width: 550px) {
@@ -1420,3 +1477,4 @@ figcaption.menu__txt {
   width: 100%;
   max-width: 100%;
 }
+

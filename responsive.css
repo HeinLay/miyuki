@@ -66,6 +66,51 @@ h4 {font-size: 2.3rem;}
   display: block;
 }
 
+/***** dropdown-nav *****/
+
+.sub-menu {
+  position: inherit;
+  margin-top: 0;
+  padding: 0;
+  box-shadow: none;
+  min-width: 100%;
+  background: none;
+  text-align: center;
+}
+
+.dropdown-nav .sub-menu li {
+  margin-bottom: 0;
+  padding: 1.564vw 0 0;
+}
+
+.dropdown-nav>a {
+  position: relative;
+  pointer-events: none;
+}
+
+.dropdown-nav>a::before {
+  position: absolute;
+  top: 50%;
+  right: 9%;
+  width: 1.546vw;
+  height: 0.782vw;
+  background: url(./images/common/ico_dropdown_arrow.png)no-repeat center/cover;
+  content: '';
+  transform: translateY(-50%);
+  transition: all .3s;
+}
+
+.dropdown-nav>a.open::before {
+  top: 20%;
+  transform: rotate(-180deg);
+  transition: all .3s;
+}
+
+.sub-menu li a:first-child {
+  display: block;
+}
+
+
 
 /***** フッター @960px *****/
 .access {

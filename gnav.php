@@ -16,16 +16,21 @@
 				<nav class="header-nav">
 					<ul>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/">HOME</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/">ホーム</a>
+							<a class="header-nav__item" href="#">HOME</a>
+						</li>
+						<li class="header-nav__list dropdown-nav">
+							<a class="header-nav__item" href="#">保育園一覧</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="#">保育園一覧</a>
+									<a href="#">美友希保育園</a>
+									<a href="#">もみの木にいな保育園</a>
+									<a href="#">バンビ保育園</a>
+								</li>
+							</ul>
 						</li>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/concept">CONCEPT</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/concept">コンセプト</a>
-						</li>
-						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/menu">MENU</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/menu">メニュー</a>
+							<a class="header-nav__item" href="#">お知らせ</a>
 							<!-- <ul class="header-nav__item--second">
 								<li><a href="menu#menu_aroma">アロマリンパマッサージ</a></li>
 								<li><a href="menu#menu_foot">リフレクソロジー</a></li>
@@ -34,25 +39,29 @@
 								<li><a href="menu#menu_maternity">マタニティコース</a></li>
 							</ul> -->
 						</li>
-						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/staff">STAFF</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/staff">スタッフ</a>
+						<li class="header-nav__list dropdown-nav">
+							<a class="header-nav__item" href="#">入園のご案内</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="#">入園のご案内</a>
+									<a href="#">一日の流れ</a>
+								</li>
+							</ul>
 						</li>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/news/">NEWS</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/news/">新着情報</a>
+							<a class="header-nav__item" href="#">採用情報</a>
 						</li>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/access">ACCESS</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/access">アクセス</a>
+							<a class="header-nav__item" href="#">運営元</a>
 						</li>
-						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://hoc-template01.com/recruit">RECRUIT</a>
-							<a class="header-nav__item" href="https://hoc-template01.com/recruit">採用情報</a>
-						</li>
-						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://beauty.hotpepper.jp/" target="_blank">RESERVATION</a>
-							<a class="header-nav__item" href="https://beauty.hotpepper.jp/" target="_blank">ご予約</a>
+						<li class="header-nav__list dropdown-nav">
+							<a class="header-nav__item" href="#">お問合せフォーム</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="#">お問合せフォーム</a>
+									<a href="#">ポリシー</a>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</nav>
@@ -67,36 +76,45 @@
 						<nav id="header-sp">
 							<ul>
 								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/index">HOME</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/index">ホーム</a>
+									<a class="header-sp__item" href="#">HOME</a>
+								</li>
+								<li class="header-sp__list dropdown-nav">
+									<a class="header-sp__item" href="#">保育園一覧</a>
+									<ul class="sub-menu">
+										<li>
+											<a href="#">保育園一覧</a>
+											<a href="#">美友希保育園</a>
+											<a href="#">もみの木にいな保育園</a>
+											<a href="#">バンビ保育園</a>
+										</li>
+									</ul>
 								</li>
 								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/concept">CONCEPT</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/concept">コンセプト</a>
+									<a class="header-sp__item" href="#">お知らせ</a>
+								</li>
+								<li class="header-sp__list dropdown-nav">
+									<a class="header-sp__item" href="#">入園のご案内</a>
+									<ul class="sub-menu">
+										<li>
+											<a href="#">入園のご案内</a>
+											<a href="#">一日の流れ</a>
+										</li>
+									</ul>
 								</li>
 								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/menu">MENU</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/menu">メニュー</a>
+									<a class="header-sp__item" href="#">採用情報</a>
 								</li>
 								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/staff">STAFF</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/staff">スタッフ</a>
+									<a class="header-sp__item" href="#">運営元</a>
 								</li>
-								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/news/">NEWS</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/news/">新着情報</a>
-								</li>
-								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/access">ACCESS</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/access">アクセス</a>
-								</li>
-								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://hoc-template01.com/recruit">RECRUIT</a>
-									<a class="header-sp__item" href="https://hoc-template01.com/recruit">採用情報</a>
-								</li>
-								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://beauty.hotpepper.jp/" target="_blank">RESERVATION</a>
-									<a class="header-sp__item" href="https://beauty.hotpepper.jp/" target="_blank">ご予約</a>
+								<li class="header-sp__list dropdown-nav">
+									<a class="header-sp__item" href="#">お問合せフォーム</a>
+									<ul class="sub-menu">
+										<li>
+											<a href="#">お問合せフォーム</a>
+											<a href="#">ポリシー</a>
+										</li>
+									</ul>
 								</li>
 							</ul>
 						</nav>

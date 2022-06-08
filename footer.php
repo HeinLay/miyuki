@@ -57,6 +57,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-inertiaScroll.js" type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/init.js" type="text/javascript"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/common.js" type="text/javascript"></script>
 
 <?php wp_footer(); ?>
 </body>
