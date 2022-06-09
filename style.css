@@ -200,7 +200,6 @@ header .container {
   padding: 10px 0;
 }
 
-
 /***** フッター *****/
 footer{
   text-align: center;
@@ -290,6 +289,21 @@ small{
   top: 18%;
   right: 12%;
 }
+
+/***** メッセージ *****/
+.message {
+  padding: 8rem 0;
+}
+
+.message h2 {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.message p {
+  text-align: center;
+}
+
 
 /***** コンセプト *****/
 .concept-content {
@@ -623,20 +637,6 @@ small{
 }
 
 /***** メッセージ *****/
-
-.message {
-  padding: 8rem 0;
-}
-
-.message h2 {
-  text-align: center;
-  margin: 0 0 2rem;
-}
-
-.message p {
-  text-align: center;
-}
-
 .recruit01__movie{
   width: 900px;
   margin: 0 auto;
