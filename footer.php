@@ -6,7 +6,7 @@
 			<div class="access__container" data-aos="fade-up" data-aos-duration="1500">
 				<h2 class="index__ttl">運営元</h2>
 				<div class="access__contents">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11660.114436830576!2d141.3380006784166!3d43.06186584374489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29a164b7c1ff%3A0xf4cba2addd4b8be4!2z5qCq5byP5Lya56S-SOODu0_jg7tD!5e0!3m2!1sja!2sjp!4v1591061256283!5m2!1sja!2sjp" width="400" height="400" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13TgSH-rQ85svVGJy8Wn39qFblb-kSXs&ehbc=2E312F&z=13" width="400" height="400"></iframe>
 					<div class="access__item">
 						<h5 class="access__ttl">ミユキホイクエン</h5>
 						<p class="access__txt">
