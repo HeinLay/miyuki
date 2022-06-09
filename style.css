@@ -96,7 +96,7 @@ a{
 /***** ヘッダー *****/
 header{
   height: 66px;
-  background-color: rgba(255,255,255,0.4);
+  background-color: #fedaec;
   position: fixed;
   top: 0;
   transition: .5s;
@@ -170,7 +170,7 @@ header .container {
 }
 
 .header-sub__txt{
-  font-family: 'lbrite';
+  font-family: 'MPLUSRounded1c';
   letter-spacing: .1em;
 }
 
@@ -232,8 +232,7 @@ small{
 }
 
 .access{
-  background-image: url(images/common/footer_bg.png);
-  background-size: cover;
+  background: linear-gradient(#ffffff, #fedaec) ;
   padding: 8rem 0 3rem;
 }
 
@@ -276,7 +275,7 @@ small{
    ************************************************************************************************ */
 
 /***** 余白 *****/
-.header-main, .main, .menu, .news, .access{
+.header-main, .concept, .main, .menu, .news, .access{
   padding: 8rem 0;
 }
 
@@ -297,19 +296,33 @@ small{
   right: 12%;
 }
 
+/***** コンセプト *****/
+.concept-content {
+  width: 840px;
+  margin: 0 auto 3rem;
+}
+
+.concept-list {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
 
 /***** メインコンテンツ *****/
 .main {
     padding: 8rem 0 2rem;
 }
 
-.main__contents1, .main__contents2{
+.main__contents {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 6rem;
+}
+
+.main__contents:nth-of-type(2n) {
+  flex-direction: row-reverse;
 }
 
 .main__item{
@@ -355,6 +368,11 @@ small{
 
 
 /***** ニュース *****/
+
+.news {
+  background-color: #a3ccbb;
+}
+
 .news__line{
   display: block;
   margin: 0 auto;
@@ -614,6 +632,20 @@ small{
 }
 
 /***** メッセージ *****/
+
+.message {
+  padding: 8rem 0;
+}
+
+.message h2 {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.message p {
+  text-align: center;
+}
+
 .recruit01__movie{
   width: 900px;
   margin: 0 auto;
@@ -1107,7 +1139,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validate
 .recruit__tel:hover,
 .news02 a:hover,
 .single02 a:hover {
-  color: #bc8da0;
+  color: #e60161;
   transition: .3s;
 }
 .news__ttl a:hover {
@@ -1137,8 +1169,8 @@ img{
   display: block;
   width: 219px;
   height: 50px;
-  border: 1px solid #bc8da0;
-  background-color: rgba(255,255,255,0.4);
+  border: 1px solid #e60161;
+  background-color: #ebebeb;
   margin: 0 auto;
   text-align: center;
   line-height: 50px;
@@ -1175,6 +1207,7 @@ img{
 
 .btn1:hover,
 .btn2:hover {
+  background-color: #fedaec;
   color: #fff;
 }
 
