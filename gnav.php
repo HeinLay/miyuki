@@ -29,7 +29,7 @@
 							</ul>
 						</li>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="#">お知らせ</a>
+							<a class="header-nav__item" href="https://web-creator02.com/miyuki-nursery/news">お知らせ</a>
 							<!-- <ul class="header-nav__item--second">
 								<li><a href="menu#menu_aroma">アロマリンパマッサージ</a></li>
 								<li><a href="menu#menu_foot">リフレクソロジー</a></li>
@@ -40,7 +40,7 @@
 						</li>
 						<li class="header-nav__list dropdown-nav">
 							<a class="header-nav__item" href="#">入園のご案内</a>
-							<ul class="sub-menu">
+							<ul class="sub-menu sub-menu-link">
 								<li>
 									<a href="#">入園のご案内</a>
 									<a href="#">一日の流れ</a>
@@ -55,10 +55,10 @@
 						</li>
 						<li class="header-nav__list dropdown-nav">
 							<a class="header-nav__item" href="#">お問合せフォーム</a>
-							<ul class="sub-menu">
+							<ul class="sub-menu sub-menu-link">
 								<li>
 									<a href="#">お問合せフォーム</a>
-									<a href="#">ポリシー</a>
+									<a href="https://web-creator02.com/miyuki-nursery/news/entry">ポリシー</a>
 								</li>
 							</ul>
 						</li>
@@ -88,11 +88,11 @@
 									</ul>
 								</li>
 								<li class="header-sp__list">
-									<a class="header-sp__item" href="#">お知らせ</a>
+									<a class="header-sp__item" href="https://web-creator02.com/miyuki-nursery/news">お知らせ</a>
 								</li>
 								<li class="header-sp__list dropdown-nav">
 									<a class="header-sp__item" href="#">入園のご案内</a>
-									<ul class="sub-menu">
+									<ul class="sub-menu sub-menu-link">
 										<li>
 											<a href="#">入園のご案内</a>
 											<a href="#">一日の流れ</a>
@@ -107,10 +107,10 @@
 								</li>
 								<li class="header-sp__list dropdown-nav">
 									<a class="header-sp__item" href="#">お問合せフォーム</a>
-									<ul class="sub-menu">
+									<ul class="sub-menu sub-menu-link">
 										<li>
 											<a href="#">お問合せフォーム</a>
-											<a href="#">ポリシー</a>
+											<a href="https://web-creator02.com/miyuki-nursery/news/entry">ポリシー</a>
 										</li>
 									</ul>
 								</li>

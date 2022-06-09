@@ -200,6 +200,10 @@ header .container {
   padding: 10px 0;
 }
 
+.sub-menu-link li a:first-child {
+  display: none;
+}
+
 /***** フッター *****/
 footer{
   text-align: center;
@@ -1012,6 +1016,10 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validate
 
   .dropdown-nav>a {
     pointer-events: none;
+  }
+
+  .sub-menu-link li a:first-child {
+    display: block;
   }
 }
 
