@@ -246,20 +246,19 @@ small{
   align-items: center;
 }
 
-.access__ttl{
-  margin-bottom: 2rem;
+.access__item {
+  margin-left: 3%;
 }
 
-.access__txt{
-  margin-bottom: 1rem;
+.access__ttl{
+  margin: 1rem 0;
 }
 
 .access__tel{
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #5d576b;
   font-weight: 700;
-  margin-top: 2rem;
-  text-align: center;
+  margin: 1rem 0 2rem;
   display: block;
   transition: .3s;
 }
