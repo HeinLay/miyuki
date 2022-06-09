@@ -19,7 +19,7 @@
 							<a class="header-nav__item" href="#">HOME</a>
 						</li>
 						<li class="header-nav__list dropdown-nav">
-							<a class="header-nav__item" href="javascript:void(0)">保育園一覧</a>
+							<a class="header-nav__item" href="#">保育園一覧</a>
 							<ul class="sub-menu">
 								<li>
 									<a href="#">美友希保育園</a>
@@ -78,7 +78,7 @@
 									<a class="header-sp__item" href="#">HOME</a>
 								</li>
 								<li class="header-sp__list dropdown-nav">
-									<a class="header-sp__item" href="javascript:void(0)">保育園一覧</a>
+									<a class="header-sp__item" href="#">保育園一覧</a>
 									<ul class="sub-menu">
 										<li>
 											<a href="#">美友希保育園</a>
