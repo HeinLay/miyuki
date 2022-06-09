@@ -88,8 +88,7 @@ a{
 .index__ttl{
   text-align: center;
   margin-bottom: 6rem;
-  font-family: 'lbrite';
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: .1em;
 }
 
@@ -129,7 +128,6 @@ header .container {
 
 .header-nav__item,
 .header-nav__item--single:first-child {
-  font-family: 'MPLUSRounded1c';
   font-size: 1.5rem;
 }
 
@@ -170,7 +168,6 @@ header .container {
 }
 
 .header-sub__txt{
-  font-family: 'MPLUSRounded1c';
   letter-spacing: .1em;
 }
 
@@ -226,8 +223,7 @@ small{
 .index__ttl{
   text-align: center;
   margin-bottom: 6rem;
-  font-family: 'lbrite';
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: .1em;
 }
 
@@ -260,10 +256,9 @@ small{
 }
 
 .access__tel{
-  font-family: 'lbrite';
   font-size: 2.5rem;
   color: #5d576b;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 2rem;
   text-align: center;
   display: block;
@@ -352,7 +347,7 @@ small{
 .menu__ttl{
   color: #5d576b;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .menu__txt--state_current{
@@ -362,7 +357,6 @@ small{
 
 .menu_readmore{
   text-align: right;
-  font-family: 'Franklin';
   transition: .3s;
 }
 
@@ -500,8 +494,7 @@ small{
 }
 
 .menu02__ttl-en{
-  font-family: 'lbrite';
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .menu02__txt{
@@ -543,7 +536,6 @@ small{
 }
 
 .menu03__ttl-en{
-  font-family: 'lbrite';
   text-align: center;
 }
 
@@ -605,7 +597,6 @@ small{
 
 .staff__ttl{
   margin-bottom: .5rem;
-  font-family: 'lbrite';
   font-size: 1.6rem;
   color: #5D576B;
 }
@@ -711,8 +702,7 @@ small{
 }
 
 .recruit03__ttl-en{
-  font-family: 'lbrite';
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .recruit03__table{
@@ -757,15 +747,14 @@ small{
 .recruit03__txt{
   margin-bottom: 1.5rem;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .recruit__tel{
-  font-family: 'lbrite';
   font-size: 2rem;
   line-height: 50px;
   color: #5d576b;
-  font-weight: bold;
+  font-weight: 700;
   display: block;
   transition: .3s;
 }
@@ -903,11 +892,6 @@ small{
   margin: 0 0 8rem;
 }
 
-.single__ttl{
-  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-weight: normal;
-}
-
 .single .header-sub__item{
   padding-top: 6rem;
 }
@@ -946,7 +930,6 @@ small{
 .category__ttl a{
   font-size: 3.2rem;
   font-weight: normal;
-  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
 
@@ -1183,7 +1166,6 @@ img{
 }
 
 .btn1{
-  font-family: 'Franklin';
   font-size: 1.6rem;
 }
 
