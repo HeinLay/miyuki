@@ -186,9 +186,10 @@ header .container {
   display: none;
   position: absolute;
   z-index: 1;
-  margin-top: 3px;
+  margin-top: 20px;
   padding: 12px 16px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  color: #333333;
   background-color: #ffffff;
   min-width: 160px;
   text-align: left;
@@ -206,10 +207,6 @@ header .container {
 
 .dropdown-nav .sub-menu li {
   padding: 10px 0;
-}
-
-.sub-menu li a:first-child {
-  display: none;
 }
 
 
@@ -991,7 +988,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validate
 @media only screen and (min-width:768px) and (max-width:1280px) {
     
   .sub-menu {
-    margin-top: 0.242vw;
+    margin-top: 1.913vw;
     padding: 0.968vw 1.29vw;
     box-shadow: 0vw 0.645vw 1.29vw 0vw rgba(0, 0, 0, 0.2);
     min-width: 12.903vw;
@@ -1007,10 +1004,6 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validate
 
   .dropdown-nav>a {
     pointer-events: none;
-  }
-
-  .sub-menu li a:first-child {
-    display: block;
   }
 }
 
@@ -1115,6 +1108,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-required.wpcf7-validate
 .header-nav__list:hover,
 .header-nav__list--single:hover .header-nav__item--single,
 .header-nav__item--second li:hover,
+.sub-menu li a:hover,
 .access__tel:hover,
 .recruit__tel:hover,
 .news02 a:hover,
