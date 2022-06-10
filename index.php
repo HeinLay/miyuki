@@ -1,4 +1,4 @@
-<?php $title = "EN VOGUE";?>
+<?php $title = "美友希保育園";?>
 <?php $description = "トップページのディスクリプションがここに入ります。90～120文字で入力し、全ページ同じディスクリプションにならないように注意しましょう。";?>
 <?php $ogurl = "https://hoc-template01.com/"; ?>
 <?php include('header.php'); ?>
