@@ -10,13 +10,13 @@
 		<header>
 			<div class="container">
 				<!-- ロゴ -->
-				<h1 class="header__ttl"><a href="https://hoc-template01.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/common/header_logo.png" alt="EN VOGUE"></a></h1>
+				<h1 class="header__ttl"><a href="<?php echo home_url('/'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/common/header_logo.png" alt="一般社団法人 美友希保育園" class="logo"></a></h1>
 
 				<!-- グローバルメニュー -->
 				<nav class="header-nav">
 					<ul>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="#">HOME</a>
+							<a class="header-nav__item" href="<?php echo home_url('/'); ?>">HOME</a>
 						</li>
 						<li class="header-nav__list dropdown-nav">
 							<a class="header-nav__item" href="#">保育園一覧</a>
@@ -29,7 +29,7 @@
 							</ul>
 						</li>
 						<li class="header-nav__list">
-							<a class="header-nav__item" href="https://web-creator02.com/miyuki-nursery/news">お知らせ</a>
+							<a class="header-nav__item" href="<?php bloginfo('url'); ?>/news">お知らせ</a>
 							<!-- <ul class="header-nav__item--second">
 								<li><a href="menu#menu_aroma">アロマリンパマッサージ</a></li>
 								<li><a href="menu#menu_foot">リフレクソロジー</a></li>
@@ -54,10 +54,10 @@
 							<a class="header-nav__item" href="#">運営元</a>
 						</li>
 						<li class="header-nav__list dropdown-nav">
-							<a class="header-nav__item" href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
+							<a class="header-nav__item" href="<?php bloginfo('url'); ?>/news/entry">お問合せフォーム</a>
 							<ul class="sub-menu sub-menu-link">
 								<li>
-									<a href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
+									<a href="<?php bloginfo('url'); ?>/news/entry">お問合せフォーム</a>
 									<a href="#">ポリシー</a>
 								</li>
 							</ul>
@@ -88,7 +88,7 @@
 									</ul>
 								</li>
 								<li class="header-sp__list">
-									<a class="header-sp__item" href="https://web-creator02.com/miyuki-nursery/news">お知らせ</a>
+									<a class="header-sp__item" href="<?php bloginfo('url'); ?>/news">お知らせ</a>
 								</li>
 								<li class="header-sp__list dropdown-nav">
 									<a class="header-sp__item" href="#">入園のご案内</a>
@@ -106,10 +106,10 @@
 									<a class="header-sp__item" href="#">運営元</a>
 								</li>
 								<li class="header-sp__list dropdown-nav">
-									<a class="header-sp__item" href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
+									<a class="header-sp__item" href="<?php bloginfo('url'); ?>/news/entry">お問合せフォーム</a>
 									<ul class="sub-menu sub-menu-link">
 										<li>
-											<a href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
+											<a href="<?php bloginfo('url'); ?>/news/entry">お問合せフォーム</a>
 											<a href="">ポリシー</a>
 										</li>
 									</ul>

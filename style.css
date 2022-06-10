@@ -102,6 +102,10 @@ header{
   z-index: 10;
 }
 
+.logo{
+  max-width: 225px;
+}
+
 .header-nav__list,
 .header-nav__list--single {
   display: inline-block;
@@ -254,16 +258,24 @@ small{
 }
 
 .access__ttl{
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.access__txt {
+  line-height: 1.7;
 }
 
 .access__tel{
   font-size: 1.5rem;
   color: #5d576b;
   font-weight: 700;
-  margin: 1rem 0 2rem;
+  margin: 0.5rem 0 3rem;
   display: block;
   transition: .3s;
+}
+
+.access__tel:last-child {
+  margin-bottom: 0;
 }
 
 /* ************************************************************************************************
@@ -293,6 +305,7 @@ small{
 }
 
 /***** メッセージ *****/
+
 .message {
   padding: 8rem 0;
 }
@@ -306,37 +319,26 @@ small{
   text-align: center;
 }
 
-
-/***** コンセプト *****/
-.concept-list {
-    font-size: 1.4rem;
-    line-height: 2;
-}
-
 /***** メインコンテンツ *****/
 .main {
-    padding: 8rem 0 2rem;
+  padding: 8rem 0 2rem;
 }
 
-.main__contents {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 6rem;
-}
-
-.main__contents:nth-of-type(2n) {
-  flex-direction: row-reverse;
+.main__contents1, .main__contents2{
+display: -webkit-flex;
+display: -ms-flex;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 6rem;
 }
 
 .main__item{
-  width: 46%;
+width: 46%;
 }
 
 .main__ttl {
-  text-align: center;
+text-align: center;
 }
 
 /***** メニュー *****/

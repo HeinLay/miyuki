@@ -56,4 +56,9 @@ function my_title_reply( $defaults){
     return $defaults;
 }
 
+function template_uri() {
+	return get_template_directory_uri();
+}
+add_shortcode("template_uri", "template_uri");
+
 ?>

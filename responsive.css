@@ -478,18 +478,19 @@ header .container{
 
 .access__item {
   margin-top: 3rem;
+  text-align: left;
 }
 
 .access__ttl {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .access__txt {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .access__tel {
-  margin-top: 3rem;
+  margin: 0 0 3rem;
 }
 
 small {

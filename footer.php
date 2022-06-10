@@ -4,9 +4,9 @@
 <!--##### アクセス #####-->
 <div class="access">
   <div class="access__container" data-aos="fade-up" data-aos-duration="1500">
-    <h2 class="index__ttl">運営元</h2>
+    <h2 class="index__ttl">ACCESS</h2>
     <div class="access__contents">
-      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13TgSH-rQ85svVGJy8Wn39qFblb-kSXs&ehbc=2E312F&z=13" width="500" height="500"></iframe>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13TgSH-rQ85svVGJy8Wn39qFblb-kSXs&ehbc=2E312F&z=13" width="500" height="475"></iframe>
       <div class="access__item">
         <h5 class="access__ttl">美友希保育園</h5>
         <p class="access__txt">
