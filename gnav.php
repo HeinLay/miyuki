@@ -54,7 +54,7 @@
 							<a class="header-nav__item" href="#">運営元</a>
 						</li>
 						<li class="header-nav__list dropdown-nav">
-							<a class="header-nav__item" href="#">お問合せフォーム</a>
+							<a class="header-nav__item" href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
 							<ul class="sub-menu sub-menu-link">
 								<li>
 									<a href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
@@ -106,7 +106,7 @@
 									<a class="header-sp__item" href="#">運営元</a>
 								</li>
 								<li class="header-sp__list dropdown-nav">
-									<a class="header-sp__item" href="#">お問合せフォーム</a>
+									<a class="header-sp__item" href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>
 									<ul class="sub-menu sub-menu-link">
 										<li>
 											<a href="https://web-creator02.com/miyuki-nursery/news/entry">お問合せフォーム</a>

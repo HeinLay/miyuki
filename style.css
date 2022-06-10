@@ -43,7 +43,6 @@ h5 {font-size: 2rem; line-height: 1.8;}
 p {
   font-size: 1.4rem;
   line-height: 2;
-  font-weight: 400;
 }
 
 a{
@@ -94,7 +93,7 @@ a{
 
 /***** ヘッダー *****/
 header{
-  height: 66px;
+  height: 75px;
   background-color: #fedaec;
   position: fixed;
   top: 0;
@@ -117,7 +116,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 66px;
+  height: 75px;
 }
 
 .header-nav__item,
@@ -310,8 +309,8 @@ small{
 
 /***** コンセプト *****/
 .concept-list {
-  font-size: 1.4rem;
-  line-height: 1.4;
+    font-size: 1.4rem;
+    line-height: 2;
 }
 
 /***** メインコンテンツ *****/
